@@ -1,0 +1,114 @@
+ (0)82 50 76 89 95 (5)57 34 37 85 53 (10)39 26 72 65 49 (15)20 54 16 22 36
+  (0)36 50 76 22 16 (5)57 34 37 54 53 (10)39 26 72 65 49 (15)20 85 95 89 82
+  Returning 15 Pivot was 82
+    (0)36 50 76 22 16 (5)57 34 37 54 53 (10)39 26 72 65 49 (15)20
+      new set
+      selecting 0-15 correctly
+      select 36 correctly.
+       (0)20 26 34 22 16 (5)57 76 37 54 53 (10)39 50 72 65 49 (15)36 85 95 89 82
+      Returns 4 (correct)
+       (0)20 26 34 22 16 (5)57 76 37 54 53 (10)39 50 72 65 49 (15)36 85 95 89 82
+         ^             ^
+         New Pivot is 20
+          (0)16 26 34 22 20 (5)57 76 37 54 53 (10)39 50 72 65 49 (15)36 85 95 89 82
+          Returns 0 (<20)
+          Pivot size of 1...
+          Now we do part (0) + 1 ->4
+           (0)16 26 34 22 20 (5)57 76 37 54 53 (10)39 50 72 65 49 (15)36 85 95 89 82
+           16 is the  new pivot
+           Its the lowest. No change.
+           return 1.
+           Now 1-4.
+           New pivot 26
+            (0)16 26 34 22 20 (5)57 76 37 54 53 (10)39 50 72 65 49 (15)36 85 95 89 82
+                  ^        ^
+                   (0)16 20 22 34 26 (5)57 76 37 54 53 (10)39 50 72 65 49 (15)36 85 95 89 82
+                   Returns 2 (1-2) Correct
+                        Nothing to do here
+                        but 2 - 3+1 = -2 > 1 <- Maybe error here...
+         |Return here- 4p -> 15 h
+          (0)16 20 22 34 26 (5)57 76 37 54 53 (10)39 50 72 65 49 (15)36 85 95 89 82
+          (0)16 20 22 34 26 (5)57 76 37 54 53 (10)39 50 72 65 49 (15)36 85 95 89 82
+            Now 5L 15H K =10
+            Pivot =5 (57)     (5)57 76 37 54 53 (10)39 50 72 65 49 (15)36
+                              (5)36 49 37 54 53 (10)39 50 72 65 76 (15)57
+                              2 swaps
+                              (5)36 49 37 54 53 (10)50 39 72 65 76 (15)57
+                                Error?
+   (0)16 20 22 34 26 (5)36 49 37 54 53 (10)50 39 72 65 76 (15)57 85 95 89 82
+  15-5
+
+
+ Testing dup500.dat
+
+ 	 dup500.dat starting with parameter QS_1ST_K_1_NO_IS
+ 			dup500.dat:Test failed at position data[3] = 5 and data[4] = 4(!)
+ 			dup500.dat:Test failed at position data[25] = 27 and data[26] = 26(!)
+ 			dup500.dat:Test failed at position data[43] = 45 and data[44] = 44(!)
+ 			dup500.dat:Test failed at position data[74] = 76 and data[75] = 74(!)
+ 			dup500.dat:Test failed at position data[94] = 96 and data[95] = 95(!)
+ 			dup500.dat:Test failed at position data[129] = 131 and data[130] = 130(!)
+ 			dup500.dat:Test failed at position data[170] = 172 and data[171] = 171(!)
+ 			dup500.dat:Test failed at position data[226] = 228 and data[227] = 227(!)
+ 			dup500.dat:Test failed at position data[296] = 298 and data[297] = 297(!)
+ 			dup500.dat:Test failed at position data[329] = 331 and data[330] = 330(!)
+ 			dup500.dat:Test failed at position data[333] = 335 and data[334] = 334(!)
+ 			dup500.dat:Test failed at position data[341] = 343 and data[342] = 342(!)
+ 			dup500.dat:Test failed at position data[401] = 403 and data[402] = 402(!)
+ 			dup500.dat:Test failed at position data[423] = 425 and data[424] = 424(!)
+ 			dup500.dat:Test failed at position data[473] = 475 and data[474] = 474(!)
+ 		dup500.dat [500] (DUPLICATE) Test Parameters: Pivot: FIRST_ELEMENT, K-limit 1, Insertion Sort: FALSE:, Successful Completion [TRUE ] 	 Time 153000
+
+ 	 dup500.dat starting with parameter QS_1ST_K_100_IS
+ 		Starting Insertion Sort for dup500.dat
+ 		dup500.dat [500] (DUPLICATE) Test Parameters: Pivot: FIRST_ELEMENT, K-limit 100, Insertion Sort: TRUE:, Successful Completion [TRUE ] 	 Time 132800
+
+ 	 dup500.dat starting with parameter QS_1ST_K_50_IS
+ 		Starting Insertion Sort for dup500.dat
+ 		dup500.dat [500] (DUPLICATE) Test Parameters: Pivot: FIRST_ELEMENT, K-limit 50, Insertion Sort: TRUE:, Successful Completion [TRUE ] 	 Time 118200
+
+ dup500.dat starting with parameter QS_MID_K_1_NO_IS
+			dup500.dat:Test failed at position data[114] = 116 and data[115] = 115(!)
+			dup500.dat:Test failed at position data[131] = 133 and data[132] = 132(!)
+			dup500.dat:Test failed at position data[142] = 144 and data[143] = 143(!)
+			dup500.dat:Test failed at position data[145] = 147 and data[146] = 146(!)
+			dup500.dat:Test failed at position data[170] = 172 and data[171] = 171(!)
+			dup500.dat:Test failed at position data[268] = 270 and data[269] = 269(!)
+			dup500.dat:Test failed at position data[272] = 274 and data[273] = 273(!)
+			dup500.dat:Test failed at position data[283] = 285 and data[284] = 284(!)
+			dup500.dat:Test failed at position data[319] = 321 and data[320] = 320(!)
+			dup500.dat:Test failed at position data[329] = 331 and data[330] = 330(!)
+			dup500.dat:Test failed at position data[402] = 404 and data[403] = 403(!)
+			dup500.dat:Test failed at position data[474] = 476 and data[475] = 475(!)
+			dup500.dat:Test failed at position data[483] = 485 and data[484] = 484(!)
+		dup500.dat [500] (DUPLICATE) Test Parameters: Pivot: MEDIAN_OF_THREE, K-limit 1, Insertion Sort: FALSE:, Successful Completion [TRUE ] 	 Time 196100
+
+	 dup500.dat starting with parameter QS_MID_K_1_NO_IS_ALT
+			dup500.dat:Test failed at position data[170] = 172 and data[171] = 171(!)
+			dup500.dat:Test failed at position data[175] = 177 and data[176] = 176(!)
+			dup500.dat:Test failed at position data[237] = 239 and data[238] = 238(!)
+			dup500.dat:Test failed at position data[262] = 264 and data[263] = 263(!)
+			dup500.dat:Test failed at position data[297] = 299 and data[298] = 298(!)
+			dup500.dat:Test failed at position data[405] = 407 and data[406] = 405(!)
+			dup500.dat:Test failed at position data[438] = 440 and data[439] = 439(!)
+			dup500.dat:Test failed at position data[474] = 476 and data[475] = 475(!)
+			dup500.dat:Test failed at position data[483] = 485 and data[484] = 484(!)
+			dup500.dat:Test failed at position data[488] = 490 and data[489] = 489(!)
+			dup500.dat:Test failed at position data[498] = 500 and data[499] = 499(!)
+		dup500.dat [500] (DUPLICATE) Test Parameters: Pivot: MEDIAN_OF_THREE_WITH_SWAPS, K-limit 1, Insertion Sort: FALSE:, Successful Completion [TRUE ] 	 Time 186700
+
+	 dup500.dat starting with parameter QS_MID_WSWAP_K_1_NO_IS
+			dup500.dat:Test failed at position data[114] = 116 and data[115] = 115(!)
+			dup500.dat:Test failed at position data[131] = 133 and data[132] = 132(!)
+			dup500.dat:Test failed at position data[142] = 144 and data[143] = 143(!)
+			dup500.dat:Test failed at position data[145] = 147 and data[146] = 146(!)
+			dup500.dat:Test failed at position data[170] = 172 and data[171] = 171(!)
+			dup500.dat:Test failed at position data[268] = 270 and data[269] = 269(!)
+			dup500.dat:Test failed at position data[272] = 274 and data[273] = 273(!)
+			dup500.dat:Test failed at position data[283] = 285 and data[284] = 284(!)
+			dup500.dat:Test failed at position data[319] = 321 and data[320] = 320(!)
+			dup500.dat:Test failed at position data[329] = 331 and data[330] = 330(!)
+			dup500.dat:Test failed at position data[402] = 404 and data[403] = 403(!)
+			dup500.dat:Test failed at position data[474] = 476 and data[475] = 475(!)
+			dup500.dat:Test failed at position data[483] = 485 and data[484] = 484(!)
+		dup500.dat [500] (DUPLICATE) Test Parameters: Pivot: MEDIAN_OF_THREE_ALT, K-limit 1, Insertion Sort: FALSE:, Successful Completion [TRUE ] 	 Time 221600

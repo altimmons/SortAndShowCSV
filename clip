@@ -1,0 +1,67 @@
+Folder PATH listing for volume OneDrive
+Volume serial number is 2AA1-CCAC
+O:.
+ÃÄÄÄ.idea
+³   ÃÄÄÄartifacts
+³   ÃÄÄÄcodeStyles
+³   ÃÄÄÄinspectionProfiles
+³   ÀÄÄÄlibraries
+ÃÄÄÄdep
+ÃÄÄÄmaventarget
+³   ÃÄÄÄcompiled
+³   ³   ÃÄÄÄorg
+³   ³   ³   ÀÄÄÄDataStructures
+³   ³   ÃÄÄÄout
+³   ³   ÃÄÄÄresources
+³   ³   ÀÄÄÄtest
+³   ³       ÀÄÄÄorg
+³   ³           ÀÄÄÄDataStructures
+³   ÃÄÄÄgenerated-sources
+³   ³   ÀÄÄÄannotations
+³   ÃÄÄÄgenerated-test-sources
+³   ³   ÀÄÄÄtest-annotations
+³   ÃÄÄÄmaven-archiver
+³   ÃÄÄÄmaven-status
+³   ³   ÀÄÄÄmaven-compiler-plugin
+³   ³       ÃÄÄÄcompile
+³   ³       ³   ÀÄÄÄdefault-compile
+³   ³       ÀÄÄÄtestCompile
+³   ³           ÀÄÄÄdefault-testCompile
+³   ÃÄÄÄRemovedClasses
+³   ÃÄÄÄreport
+³   ÀÄÄÄsurefire-reports
+ÃÄÄÄout
+³   ÀÄÄÄartifacts
+³       ÃÄÄÄReport__WriteUp_
+³       ³   ÃÄÄÄorg
+³       ³   ³   ÀÄÄÄDataStructures
+³       ³   ÃÄÄÄout
+³       ³   ÃÄÄÄReport
+³       ³   ÃÄÄÄresources
+³       ³   ÀÄÄÄtest
+³       ³       ÀÄÄÄorg
+³       ³           ÀÄÄÄDataStructures
+³       ÀÄÄÄTimmonsAndrew_Project4
+ÃÄÄÄreport
+ÃÄÄÄres
+³   ÃÄÄÄ20k
+³   ÃÄÄÄcustom
+³   ÃÄÄÄcustom-Old
+³   ÃÄÄÄinput
+³   ÃÄÄÄout
+³   ÃÄÄÄresources
+³   ÀÄÄÄShort
+ÃÄÄÄsrc
+³   ÃÄÄÄmain
+³   ³   ÀÄÄÄorg
+³   ³       ÀÄÄÄDataStructures
+³   ÀÄÄÄtest
+³       ÀÄÄÄjava
+³           ÀÄÄÄorg
+³               ÀÄÄÄDataStructures
+ÀÄÄÄtarget
+    ÃÄÄÄgenerated-sources
+    ³   ÀÄÄÄannotations
+    ÃÄÄÄgenerated-test-sources
+    ³   ÀÄÄÄtest-annotations
+    ÀÄÄÄMETA-INF

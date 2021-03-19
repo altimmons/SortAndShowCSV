@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/maventarget" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/target" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Annotation profile for Timmons" enabled="true">
+        <sourceOutputDir name="maventarget/generated-sources/annotations" />
+        <sourceTestOutputDir name="maventarget/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Timmons" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

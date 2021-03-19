@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.DataStructures.QSort_Test" time="0.27" tests="3" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="O:\OneDrive\Code\IntelliJ\Timmons\maventarget\compiled\test;O:\OneDrive\Code\IntelliJ\Timmons\maventarget\compiled;C:\Users\andyt\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.1\junit-platform-launcher-1.5.1.jar;C:\Users\andyt\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\andyt\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\andyt\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\andyt\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\andyt\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\andyt\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.1\junit-jupiter-params-5.5.1.jar;C:\Users\andyt\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\andyt\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\andyt\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.0\junit-jupiter-5.4.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\JDK-12\bin"/>
+    <property name="sun.java.command" value="C:\Users\andyt\AppData\Local\Temp\surefire14519524857986100915\surefirebooter18149123592203179482.jar C:\Users\andyt\AppData\Local\Temp\surefire14519524857986100915 2020-05-24T21-49-01_015-jvmRun1 surefire13871713869195637898tmp surefire_012407211526114788330tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="O:\OneDrive\Code\IntelliJ\Timmons\maventarget\compiled\test;O:\OneDrive\Code\IntelliJ\Timmons\maventarget\compiled;C:\Users\andyt\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.1\junit-platform-launcher-1.5.1.jar;C:\Users\andyt\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\andyt\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\andyt\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\andyt\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\andyt\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\andyt\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.1\junit-jupiter-params-5.5.1.jar;C:\Users\andyt\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\andyt\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\andyt\.m2\repository\org\junit\jupiter\junit-jupiter\5.4.0\junit-jupiter-5.4.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\andyt"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\JDK-12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="O:\OneDrive\Code\IntelliJ\Timmons"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\andyt\AppData\Local\Temp\surefire14519524857986100915\surefirebooter18149123592203179482.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="user.name" value="andyt"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\andyt\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\andyt\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.1"/>
+    <property name="user.dir" value="O:\OneDrive\Code\IntelliJ\Timmons"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="idea.version2019.3.3" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\Java\JDK-12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python38\Scripts\;C:\Python38\;C:\Python27amd64\;C:\Python27amd64\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;c:\program files\graphicsmagick-1.3.33-q16;C:\ProgramData\chocolatey\bin\;C:\tools\depot-tools\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;c:\program files\graphicsmagick-1.3.31-q8;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\ImageMagickHD;C:\Python37\Scripts\;C:\Python37\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\JDK-11\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\JDK-8\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\OpenSSH-Win64;C:\ProgramData\osquery;C:\Program Files (x86)\WinMerge;C:\Program Files\LLVM\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files (x86)\AOMEI Backupper;C:\tools\groovy-2.5.7\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.1\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\PowerShell\6\;C:\HashiCorp\Vagrant\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PuTTY\;C:\Users\andyt\AppData\Roaming\Python\Python37\Scripts\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\AdoptOpenJDK\jdk-12+33-jre\bin;C:\Users\andyt\AppData\Local\git-cola\bin;C:\Users\andyt\.cargo\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;R:\Java\gradle-5.2.1\bin;R:\Java\apache-maven-3.6.0\bin;C:\ProgramData\chocolatey\lib\sysinternals\tools;C:\ProgramData\chocolatey\lib;C:\Tools\NirLauncher\NirSoft;C:\Program Files (x86)\GnuWin32\bin;C:\Tools\;C:\ProgramData\chocolatey\bin;C:\Users\andyt\AppData\Local\Microsoft\WindowsApps;C:\Program Files\WindowsPowerShell\Modules\Pester\4.4.1\bin;C:\Users\andyt\AppData\Roaming\npm;C:\Users\andyt\AppData\Local\Pandoc\;C:\Users\andyt\AppData\Local\Programs\Microsoft VS Code\bin;C:\Tools\NirLauncher;C:\Program Files\kdiff3;C:\Users\andyt\.babun;C:\Users\andyt\AppData\Local\Markdown Monster\;C:\Users\andyt\AppData\Local\GitHubDesktop\bin;C:\Users\andyt\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\andyt\AppData\Local\Markdown Monster;C:\Users\andyt\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Tools\bin;C:\Users\andyt\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Program Files (x86)\Nmap;C:\Users\andyt\.platformio\penv\Scripts\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="testQsort" classname="org.DataStructures.QSort_Test" time="0.087"/>
+  <testcase name="testSort" classname="org.DataStructures.QSort_Test" time="0">
+    <skipped message="public void org.DataStructures.QSort_Test.testSort() is @Disabled"/>
+  </testcase>
+  <testcase name="testSortM0{TestReporter}" classname="org.DataStructures.QSort_Test" time="0.181"/>
+</testsuite>

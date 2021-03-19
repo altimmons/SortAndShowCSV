@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.DataStructures</groupId>
+    <artifactId>Timmons</artifactId>
+    <version>Lab4-1.0</version>
+
+    <name>Andrew Timmons</name>
+    <!-- FIXME change it to the project's website -->
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>11</java.version>
+        <!--      com.mypackage.MyClass-->
+        <mainclassName>App</mainclassName>
+        <!--     ${project.groupId}.${mainclassName}    -->
+        <!--suppress UnresolvedMavenProperty -->
+        <targetClass>${project.groupId}.${mainclassName}</targetClass>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8
+        </project.reporting.outputEncoding>
+        <junit.jupiter.version>5.5.1</junit.jupiter.version>
+        <junit.platform.version>1.5.1</junit.platform.version>
+        <maven.compiler.plugin.version>3.8.0</maven.compiler.plugin.version>
+        <maven.surefire.plugin.version>2.22.1</maven.surefire.plugin.version>
+        <maven.dependency.plugin.version>3.0.1</maven.dependency.plugin.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+            <version>${junit.platform.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Optional for parameterized tests -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>17.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.5.1</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <directory>
+            ./maventarget
+        </directory>
+        <sourceDirectory>
+            ./src/main
+        </sourceDirectory>
+        <testSourceDirectory>
+            ./src/test/java
+        </testSourceDirectory>
+        <outputDirectory>
+            ${project.build.directory}/compiled
+        </outputDirectory>
+        <testOutputDirectory>
+            ${project.build.outputDirectory}/test
+        </testOutputDirectory>
+
+        <!--      <sourceDirectory></sourceDirectory>-->
+        <!--     -> This element specifies a directory containing the source of the
+    project. The generated build system will compile the source in this directory when the project is built. The path given is relative to the project descriptor.-->
+
+        <!--      <scriptSourceDirectory></scriptSourceDirectory>-->
+        <!--      -> This element specifies a directory containing the script sources
+    of the project. This directory is meant to be different from the sourceDirectory, in that its contents will be copied to the output directory in most cases (since scripts are interpreted rather than compiled).-->
+
+        <!--      <testSourceDirectory></testSourceDirectory>-->
+        <!--This element specifies a directory containing the unit test source of the project. The generated build system will compile these directories when the project is being tested. The path given is relative to the project descriptor.-->
+
+        <!--      <outputDirectory></outputDirectory>-->
+        <!--    The directory where compiled application classes are placed.-->
+
+        <!--      <testOutputDirectory></testOutputDirectory>-->
+        <!--      The directory where compiled test classes are placed.-->
+
+
+        <!--      <extensions></extensions>-->
+        <!--      (Many) A set of build extensions to use from this project.-->
+
+        <defaultGoal>jar:jar</defaultGoal>
+
+        <finalName>TimmonsAndrew-DatStr-Project_${project.version}</finalName>
+
+        <!--      The default goal (or phase in Maven 2) to execute when none is
+        specified for the project. e.g. build, test, package-->
+
+
+        <!--      <resource>-->
+        <!--      <targetPath>-->
+        <!--          ${project.build.directory}\report\-->
+        <!--      </targetPath>-->
+        <!--      <directory>-->
+        <!--          ..\..\..\..\ASUSsync\VS Code\md\dsRes\-->
+        <!--      </directory>-->
+        <!--&lt;!&ndash;          <includes>&ndash;&gt;-->
+        <!--&lt;!&ndash;              ..\..\..\..\ASUSsync\VS Code\md\out\dsRes\*&ndash;&gt;-->
+        <!--&lt;!&ndash;          </includes>&ndash;&gt;-->
+        <!--&lt;!&ndash;          ..\..\..\..\ASUSsync\VS Code\md\dsRes\*&ndash;&gt;-->
+        <!--      <includes>-->
+        <!--          <include>-->
+        <!--              *.md-->
+        <!--          </include>-->
+        <!--          <include>-->
+        <!--              *.pdf-->
+        <!--          </include>-->
+        <!--          <include>-->
+        <!--              *.png-->
+        <!--          </include>-->
+        <!--          <include>-->
+        <!--              *.html-->
+        <!--          </include>-->
+        <!--      </includes>-->
+        <!--  </resource>-->
+        <!--      (Many) This element describes all of the classpath resources such as properties files associated with a project. These resources are often included in the final package.-->
+        <testResources></testResources>
+        <!--      (Many) This element describes all of the classpath resources such as properties files associated with a project's unit tests.-->
+        <!--      <directory></directory>-->
+        <!--      The directory where all files generated by the build are placed.-->
+        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+            <plugins>
+                <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+                <plugin>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>3.1.0</version>
+                </plugin>
+                <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+                <plugin>
+                    <inherited>true</inherited>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.0.2</version>
+                    <executions>
+                        <execution>
+                            <id>copy-resources</id>
+                            <!-- here the phase you need -->
+                            <phase>validate</phase>
+                            <goals>
+                                <goal>copy-resources</goal>
+                            </goals>
+                            <configuration>
+                                <outputDirectory>
+                                    ${project.build.directory}/report/
+                                </outputDirectory>
+                                <resources>
+                                    <resource>
+                                        <targetPath>
+                                            ${project.build.directory}\report\
+                                        </targetPath>
+                                        <directory>
+                                            C:\ASUSsync\VS Code\md\dsRes\
+                                        </directory>
+                                        <includes>
+                                            <include>
+                                                *.md
+                                            </include>
+                                            <include>
+                                                *.pdf
+                                            </include>
+                                            <include>
+                                                *.png
+                                            </include>
+                                            <include>
+                                                *.html
+                                            </include>
+                                        </includes>
+                                    </resource>
+                                    <resource>
+                                        <targetPath>
+                                            ${project.build.directory}\report\
+                                        </targetPath>
+                                        <directory>
+                                            C:\ASUSsync\VS Code\md\out\dsRes\
+                                        </directory>
+                                        <includes>
+                                            <include>
+                                                *.pdf
+                                            </include>
+                                            <include>
+                                                *.html
+                                            </include>
+                                        </includes>
+                                    </resource>
+                                    <resource>
+                                        <directory>${project.basedir}\dep
+                                        </directory>
+                                        <targetPath>
+                                            ${project.build.directory}/RemovedClasses
+                                        </targetPath>
+                                    </resource>
+                                    <resource>
+                                        <targetPath>
+                                            ${project.build.directory}\generated-sources\
+                                        </targetPath>
+                                        <directory>
+                                            <!--                            ${project.basedir}\src\main\${project.groupId}\-->
+                                            ${project.basedir}/src/test/java/org/DataStructures
+                                        </directory>
+                                    </resource>
+                                    <resource>
+                                        <directory>
+                                            ${project.basedir}/out
+                                        </directory>
+                                        <targetPath>
+                                            ${project.build.directory}/compiled/org/DataStructures/out
+                                        </targetPath>
+                                    </resource>
+
+                                    <resource>
+                                        <targetPath>
+                                            ${project.build.directory}\generated-test-sources\
+                                        </targetPath>
+                                        <directory>
+                                            <!--                            ${project.basedir}\src\test\java\${project.groupId}\-->
+                                            ${project.basedir}/src/test/java/org/DataStructures
+                                        </directory>
+                                    </resource>
+
+                                </resources>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.0</version>
+                    <configuration>
+                        <compilerArgs>
+                            <arg>-J-Xss4M</arg>
+<!--                            <arg>-J-Xms32M</arg>-->
+<!--                            <arg>-J-Xmx128M</arg>-->
+<!--                            <arg>-J-Xmn8M</arg>>-->
+<!--                            -Xss4M -Xms32M -Xmx128M -XshowSettings-->
+                        </compilerArgs>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.22.1</version>
+                    <configuration>
+                        <redirectTestOutputToFile>
+                            true
+                        </redirectTestOutputToFile>
+                        <testSourceDirectory>
+                            ${project.build.directory}\sources\test
+                        </testSourceDirectory>
+                        <testClassesDirectory>
+                            ${build.testOutputDirectory}
+                        </testClassesDirectory>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.0.2</version>
+                    <configuration>
+                        <archive>
+                            <manifest>
+                                <addClasspath>true</addClasspath>
+                                <classpathPrefix>lib/</classpathPrefix>
+                                <mainClass>${targetClass}</mainClass>
+                            </manifest>
+                        </archive>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>pre-process-classes</id>
+                            <phase>compile</phase>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                            <configuration>
+                                <classifier>pre-process</classifier>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-install-plugin</artifactId>
+                    <version>2.5.2</version>
+                    <configuration>
+
+                    </configuration>
+                </plugin>
+                <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+                <plugin>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>3.7.1</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-project-info-reports-plugin</artifactId>
+                    <version>3.0.0</version>
+                </plugin>
+                <plugin>
+                    <inherited>true</inherited>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>3.2.0</version>
+                    <configuration>
+                        <outputDirectory>
+                            ${project.build.directory}/apidocs
+                        </outputDirectory>
+                        <reportOutputDirectory>
+                            ${project.build.directory}/apidocs
+                        </reportOutputDirectory>
+                        <failOnError>false</failOnError>
+                        <attach>true</attach>
+                        <defaultAuthor>${project.name}</defaultAuthor>
+                        <defaultManifestFile> ${project.build.outputDirectory}/META-INF/MANIFEST.MF}</defaultManifestFile>
+                        <useDefaultManifestFile>true</useDefaultManifestFile>
+                        <failOnWarnings>false</failOnWarnings>
+                        <fixClassComment>true</fixClassComment>
+                        <fixFieldComment>true</fixFieldComment>
+                        <fixMethodComment>true</fixMethodComment>
+                        <fixTags>all</fixTags> <!--      all includes author
+                        version since param return throws link   -->
+
+                    </configuration>
+
+                </plugin>
+                <plugin>
+                    <inherited>true</inherited>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <executions>
+                        <execution>
+                            <id>attach-sources</id>
+                            <goals>
+                                <goal>jar-no-fork</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <inherited>true</inherited>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <configuration>
+                        <updateReleaseInfo>true</updateReleaseInfo>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>
+
+
+
+        <!--              <execution>-->
+        <!--                  <id>aggregate</id>-->
+        <!--                  <goals>-->
+        <!--                      <goal>aggregate</goal>-->
+        <!--                  </goals>-->
+        <!--                  <phase>package</phase>-->
+        <!--                  <configuration>-->
+        <!--                      &lt;!&ndash; Specific configuration for the aggregate report &ndash;&gt;-->
+        <!--                      ...-->
+        <!--                  </configuration>-->
+        <!--              </execution>-->
+        <!--          <executions>-->
+        <!--                        <execution>-->
+        <!--                            <id>attach-javadocs</id>-->
+        <!--                            <goals>-->
+        <!--                                <goal>jar</goal>-->
+        <!--                            </goals>-->
+        <!--                        </execution>-->
+        <!--          </executions>-->

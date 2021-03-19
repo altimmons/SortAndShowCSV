@@ -1,0 +1,31 @@
+---
+title: "R Notebook"
+author: andyt
+date: 5/24/2020
+output: html_notebook
+---
+
+The code chunk appears:
+```{r}
+install.packages("tidyverse", "stringi", "stringr", "readr")
+require(tidyverse)
+require(stringi)
+require(stringr)
+require(readr)
+```
+
+Ok, its been a bit since I have done this.  Let's see if I can remember.
+If the above fails, or doesn't do anything execute
+
+`install.packages("tidyverse")`
+
+
+
+Type any R code in the chunk, for example:
+```{r}
+print.noquote(getwd())
+
+```
+```{r}
+
+```

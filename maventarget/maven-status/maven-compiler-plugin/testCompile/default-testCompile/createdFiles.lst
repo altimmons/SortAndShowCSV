@@ -1,0 +1,9 @@
+org\DataStructures\GaussTest.class
+org\DataStructures\RecordSetTest.class
+org\DataStructures\InsertionSort_Test.class
+org\DataStructures\DataTest.class
+org\DataStructures\Parser_Test.class
+org\DataStructures\TestGArrayList.class
+org\DataStructures\AppTest.class
+org\DataStructures\QSort_Test.class
+org\DataStructures\FileGenerator_Test.class

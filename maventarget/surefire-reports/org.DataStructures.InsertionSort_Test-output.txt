@@ -1,0 +1,69 @@
+asc10K.dat 	 Count: 10000 	 Size: 10000
+asc1K.dat 	 Count: 1000 	 Size: 1000
+asc2K.dat 	 Count: 2000 	 Size: 2000
+asc50.dat 	 Count: 50 	 Size: 50
+asc500.dat 	 Count: 500 	 Size: 500
+asc5K.dat 	 Count: 5000 	 Size: 5000
+dup10K.dat 	 Count: 10000 	 Size: 10000
+dup1K.dat 	 Count: 1000 	 Size: 1000
+dup2K.dat 	 Count: 2000 	 Size: 2000
+dup500.dat 	 Count: 500 	 Size: 500
+dup5K.dat 	 Count: 5000 	 Size: 5000
+ran10K.dat 	 Count: 10000 	 Size: 10000
+ran1K.dat 	 Count: 1000 	 Size: 1000
+ran2K.dat 	 Count: 2000 	 Size: 2000
+ran50.dat 	 Count: 50 	 Size: 50
+ran500.dat 	 Count: 500 	 Size: 500
+ran5K.dat 	 Count: 5000 	 Size: 5000
+rev10K.dat 	 Count: 10000 	 Size: 10000
+rev1K.dat 	 Count: 1000 	 Size: 1000
+rev2K.dat 	 Count: 2000 	 Size: 2000
+rev50.dat 	 Count: 50 	 Size: 50
+rev500.dat 	 Count: 500 	 Size: 500
+rev5K.dat 	 Count: 5000 	 Size: 5000
+asc10K.dat 	 Count: 10000 	 Size: 10000
+asc1K.dat 	 Count: 1000 	 Size: 1000
+asc2K.dat 	 Count: 2000 	 Size: 2000
+asc50.dat 	 Count: 50 	 Size: 50
+asc500.dat 	 Count: 500 	 Size: 500
+asc5K.dat 	 Count: 5000 	 Size: 5000
+dup10K.dat 	 Count: 10000 	 Size: 10000
+dup1K.dat 	 Count: 1000 	 Size: 1000
+dup2K.dat 	 Count: 2000 	 Size: 2000
+dup500.dat 	 Count: 500 	 Size: 500
+dup5K.dat 	 Count: 5000 	 Size: 5000
+ran10K.dat 	 Count: 10000 	 Size: 10000
+ran1K.dat 	 Count: 1000 	 Size: 1000
+ran2K.dat 	 Count: 2000 	 Size: 2000
+ran50.dat 	 Count: 50 	 Size: 50
+ran500.dat 	 Count: 500 	 Size: 500
+ran5K.dat 	 Count: 5000 	 Size: 5000
+rev10K.dat 	 Count: 10000 	 Size: 10000
+rev1K.dat 	 Count: 1000 	 Size: 1000
+rev2K.dat 	 Count: 2000 	 Size: 2000
+rev50.dat 	 Count: 50 	 Size: 50
+rev500.dat 	 Count: 500 	 Size: 500
+rev5K.dat 	 Count: 5000 	 Size: 5000
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+OK

@@ -1,0 +1,7 @@
+These are dataSet files which can be used, at your own risk, as input to Lab 4.
+The file names are of the form typeSize.dat where type is 
+asc  - for ascending ordered file, 
+dup  - for a randomly ordered file containing a higher percentage of duplicates, 
+ran  - for a randomly ordered file containing very few, if any, duplicates,
+rev  - for a reverse ordered file.
+and Size is the number of entries

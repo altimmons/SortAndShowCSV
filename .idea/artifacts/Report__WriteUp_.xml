@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Report (WriteUp)">
+    <output-path>$PROJECT_DIR$/out/artifacts/Report__WriteUp_</output-path>
+    <root id="root">
+      <element id="directory" name="Report">
+        <element id="dir-copy" path="C:/ASUSsync/VS Code/md/out/dsRes" />
+        <element id="dir-copy" path="C:/ASUSsync/VS Code/md/dsRes" />
+      </element>
+      <element id="module-output" name="Timmons" />
+    </root>
+  </artifact>
+</component>
